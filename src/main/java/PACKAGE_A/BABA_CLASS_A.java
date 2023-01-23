@@ -15,7 +15,7 @@ public class BABA_CLASS_A {
     private int private_nonstatic_baba_A;
 
 
-
+int ma;
 
     public static void public_babaklasA_metodu(){}
     protected static void protected_babaklasA_metodu(){}
