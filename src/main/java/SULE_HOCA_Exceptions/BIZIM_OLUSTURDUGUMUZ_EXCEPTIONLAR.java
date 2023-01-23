@@ -24,5 +24,10 @@ public class BIZIM_OLUSTURDUGUMUZ_EXCEPTIONLAR {
             System.out.println(yas);
         }
 
+        // throw  keyword bir metodun bodysinde istedigim yerde istedigim sekilde sartta istedigim kadar exception atarim
+
+        // throw dan sonra exception class tan bir obje olusturulur
+        // konstraktirin icine istedogon mesaji yaz
+
     }
 }
