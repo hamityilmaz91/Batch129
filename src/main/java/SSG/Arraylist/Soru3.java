@@ -7,7 +7,7 @@ import java.util.Collections;
 public class Soru3 {
     public static void main(String[] args) {
 
-
+        System.out.println("deneme");
         //  bir list olusturun ve bu listin elemanlarini alfabetik siraya göre yazdirin
 
         ArrayList<String> list = new ArrayList<>();
