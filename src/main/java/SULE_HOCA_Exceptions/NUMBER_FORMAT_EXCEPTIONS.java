@@ -13,7 +13,10 @@ public class NUMBER_FORMAT_EXCEPTIONS {
         //  2)throw exception
 
         String str ="12a3";
+
         convert_to_strring(str);
+
+
     }//main
 
     private static void convert_to_strring(String str) {
@@ -34,5 +37,6 @@ public class NUMBER_FORMAT_EXCEPTIONS {
         }
     }
 
-
+        // onemli bir not :::::  bence kolay olmasi acisindan ,,exceptionlari ,,main metodda
+    // metod cagrildigi zaman  ,, o metodu kiskaca almak
 }
