@@ -1,0 +1,28 @@
+
+
+  EXCEPTIONSLAR BIR CLASS TIR :
+  MESELA STRING_INDEX_OUT_OF_BOUND_EXCEPTION
+  ARRAYS_INDEX_OUT_OF_BOUND_EXCEPTIONS
+  NUMBER_FORMAT_EXCEPTIONS
+
+
+nasil bir hata cikacgini tahmin edemiyorsan veya hatanin adini unuttuysan once EXCEPTION
+ en genis catiyi
+yaz catch bloguna sonra
+sonra terminale printstacktrace yaz
+terminalden hatanin ozel adini bul
+sonra yukarida exception a gel onu yaz
+
+
+hata iki sekilde handle edilebiliyor
+biri try catch blogu ( sadece kucuk hatalari izole ediyor. aksak calisir ama onemli degil)
+ikincisi throw exception( bu kodu durduruyor )
+hatami catch blogunda spesifik hale getirdim
+
+
+CATCH BLOGUNU DUZENLERKEN  BABA COCUK ILISKISINE DIKKAT ET
+GOKTEN EXCEPTIONS YAGIYOR
+
+
+
+

@@ -1,0 +1,55 @@
+package Metodoverriding;
+
+public class Genel_Notlar_2 {
+
+
+    // BIR METOD OVERRIDING GERCEKLESTIREBILMEK ICIN INHERITENS YAPISI MUHAKKAK OLMALIDIR
+    //BIR  OBJE EGER INHERITENS YAPISINA SAHIPSE  o objeden gordugumuz metod ve variabllar in hangi klasa
+    //ait oldugunu soyleyemeyiz
+
+    // AMA inheritens yapisina sahip olmayan bir objemiz var ise elimizde  degiskenler  ve metodlar a su klas
+    //sahiptir diyebiliriz
+    // PARENTTAKI  METODUN OZELLESTIRILEREK COCUK CLASTA  KULLANILMASINA OVERRIDING DENIR
+    //  #####################################KURALLLAR FÜR OVERRIDING#######################################################
+
+
+// AYNI CLASTA VEYA BASKA KLASSTA ;;; KLASIN COCUGU OLSAN DA OLMASANDA PRIVAT  PRIVATTERTIR : SADECE KLASATA
+//VARDIR : SADECE KLASTA GORULUR : HICBIR OBJEDE GORULMEZ: HICBIR YERDEN INHERIT EDILEMEZ VEYA OVERRIDE EDILEMEZ
+
+//###################################################################################################
+
+//  METODUN SADECE BADISI DEGISEBILIR
+//METODUN ISMI DEGISEMEZ
+//OVERRIDE EDILEN METODUN ACCESS MODIFIER I ORIJINALINDEN DAR OLAMAZ
+
+
+    //  su bir metoddur   public(1)   double (2)   toplama(3)   ()(4)   {}(5);
+
+// bu metodda ineteger return edersen calisir (kucuk kutu buyuk kutuya sigar )
+
+//  su bir metoddur    public(1)   parentclass(2)   metodismi(3)   ()(4)   {}(5);
+// bu metodda  child NESNESI return  edersen calisir
+
+// nesne return edilebilecek  somut birseydir
+
+//RETURN TYPE OVERRIDING DE    OLUSTURULAN OBJENIN AYNI DATA TIPI OLABILIR YADA PARENT DATA TIPI OLABILIR
+// OLUSTURULAN OBJE ILE RETURN TYPE ARASINDA IS A RELATION SHIP OLMALIDIR
+// OVERRIDING DE PRIMITIVE DATA TIP RETURN EDILIYORSA  DATA TIPI DEGISTIRILEMEZ
+// PRIMITIVE DATA TIPLERININ BIRBIRLERININ PARENTI DEGILLERDIR KI
+// WRAPPER CLASS DATA TIPLERIN BIRBIRLERININ PARENTI DEGILLERDIR KI
+// PRIMITIVLER KLASS DEGILLERDIR KI ARALARINDA PARETN CHILD ILISKISI OLSUN
+// PARENT CHILD ILISKISI YOKSA RETURN TYPE I DEGISTIREMEZSINIZ
+//  VOID ISE YINE RETURN TYPE DEGISTIRILEZ:
+
+//     BUTUN BUNLARDAN CIKAN SONUC O ZAMAN OVERIDING DE  RETURN TYPEI NE ZAMAN DEGISTIREBILIRSIN:
+//     INHERITES LI BIR DEGISKEN URETTUGUN ZAMAN :
+
+
+
+
+
+
+
+}
+
+
