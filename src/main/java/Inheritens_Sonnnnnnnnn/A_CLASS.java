@@ -5,6 +5,7 @@ public class A_CLASS  extends B_CLASS {
     int ama ;
     public int  xa ;
     private  int öza;
+
     public void a_classin_metodu(){
     }
     public static void main(String[] args) {
