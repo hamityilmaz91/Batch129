@@ -4,7 +4,8 @@ public class Genel_Notlar_2 {
 
 
     // BIR METOD OVERRIDING GERCEKLESTIREBILMEK ICIN INHERITENS YAPISI MUHAKKAK OLMALIDIR
-    //BIR  OBJE EGER INHERITENS YAPISINA SAHIPSE  o objeden gordugumuz metod ve variabllar in hangi klasa
+    //BIR  OBJE EGER INHERITENS YAPISINA SAHIPSE  o objeden gordugumuz metod ve variabllar in
+    // hangi klasa
     //ait oldugunu soyleyemeyiz
 
     // AMA inheritens yapisina sahip olmayan bir objemiz var ise elimizde  degiskenler  ve metodlar a su klas
