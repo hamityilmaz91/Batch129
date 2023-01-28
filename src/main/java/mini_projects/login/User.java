@@ -2,16 +2,16 @@ package mini_projects.login;
 
 public class User {
 
-    private String name ;
-    private String username ;
-    private String emali ;
-    private String passwort ;
+    private String name;
+    private String username;
+    private String email;
+    private String password;
 
-    public User(String name, String username, String emali, String passwort) {
+    public User(String name, String username, String email, String password) {
         this.name = name;
         this.username = username;
-        this.emali = emali;
-        this.passwort = passwort;
+        this.email = email;
+        this.password = password;
     }
 
     public String getName() {
@@ -30,20 +30,20 @@ public class User {
         this.username = username;
     }
 
-    public String getEmali() {
-        return emali;
+    public String getEmail() {
+        return email;
     }
 
-    public void setEmali(String emali) {
-        this.emali = emali;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getPasswort() {
-        return passwort;
+    public String getPassword() {
+        return password;
     }
 
-    public void setPasswort(String passwort) {
-        this.passwort = passwort;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
@@ -51,8 +51,8 @@ public class User {
         return "User{" +
                 "name='" + name + '\'' +
                 ", username='" + username + '\'' +
-                ", emali='" + emali + '\'' +
-                ", passwort='" + passwort + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
                 '}';
     }
 }
