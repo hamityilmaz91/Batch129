@@ -11,7 +11,9 @@ package Interface;
 // coklu interaface parentlarin herbirinin icine ayni isimli metodlar koyabilirz
 
 public class Civic  implements Ac,Engine,Security {
+    public static void main(String[] args) {
 
+    }
     @Override
     public void cool() {
         System.out.println("civic cools perfectly");
