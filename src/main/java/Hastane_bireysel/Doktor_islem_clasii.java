@@ -141,6 +141,8 @@ public class Doktor_islem_clasii {
 
         System.out.println("Eklenecek doktorun unvanini giriniz");
         String yeniDoktorUnvan = input.nextLine();
+        Veri_Bankasi_2.doctorIsimleri();
+        Veri_Bankasi_2.doctorSoyIsimleri.add(yeniDoktorIsmi);
 
 
         /////  OLMADI     OLMADI    OLMADI

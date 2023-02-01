@@ -3,7 +3,7 @@ package Exceptions_Bireysel;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Input_miss_matching_Exceptions {
+public class Input_miss_matching_Exceptions extends Throwable {
 
 
     public static void main(String[] args) {

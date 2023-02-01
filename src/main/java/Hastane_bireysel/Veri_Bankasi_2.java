@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Veri_Bankasi_2 {
 
-
+String arr[]={"ahmet "};
     public static void doctorIsimleri() {
 
 
