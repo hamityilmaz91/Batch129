@@ -4,6 +4,7 @@ package Hastane_Projesi_Buyuk_Mentor;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class Hastane extends VeriBankasi {
     public String hastaneAdi = "Kartal Devlet Hastanesi";
     public String hastaneAdresi = "Kartal/Istanbul";
