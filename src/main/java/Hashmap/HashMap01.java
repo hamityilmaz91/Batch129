@@ -63,7 +63,13 @@ public class HashMap01 {
         hm.putIfAbsent("ad", 3);
         System.out.println(hm);
 
+// ulke ismineki karakter sayisini ulke nufusuna ekleyen ve sonucu konsola yazdiran kodu yaziniz
 
+        HashMap<String,Integer> sehirNufusMapi= new HashMap<>();
+        sehirNufusMapi.put("hatay",200000);
+        sehirNufusMapi.put("iskenderun",300000);
+        sehirNufusMapi.put("antep",300000);
+        sehirNufusMapi.put("maras",300000);
 
 
     }         // main
